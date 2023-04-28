@@ -34,6 +34,8 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
+  border-radius: .5rem;
 }
 
 .container {
@@ -107,12 +109,43 @@ img {
 
 .container .content {
   grid-area: content;
+  margin: 0 auto;
+  padding: 3rem;
+  max-width: 90rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.container .content .col-wide {
+  grid-column: 1 / -1;
+}
+
+.container .content .img-1 {
+  grid-row: span 2;
+  align-self: self-end;
+}
+
+.container .content .img-2 {
+  align-self: self-end;
 }
 
 .container .anuncios {
   grid-area: anuncios;
+  display: grid;
+  background: var(--bg-sidenav);
+  align-content: start;
+  padding: 3rem;
+  gap: 3rem;
 }
 
 .container footer {
   grid-area: footer;
+  background: linear-gradient(135deg, var(--bg-header), var(--bg-header-));
+}
+
+.container footer p {
+  color: var(--white);
+  text-align: center;
+  padding: 3rem;
 }
