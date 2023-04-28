@@ -1,5 +1,5 @@
 :root {
-  --color: #222;
+  --color-1: rgba(0,0,0,.7);
   --white: #FFF;
   --bg-header: #8844EE;
   --bg-header-: #B07DFB;
@@ -13,7 +13,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', 'sans-serif';
+  font-family: 'Vollkorn', 'Poppins', 'sans-serif';
 }
 
 html {
@@ -117,6 +117,23 @@ img {
   gap: 3rem;
 }
 
+.container .content .titulo {
+  color: var(--bg-header-);
+}
+
+.container .content .titulo h1 {
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.container .content .titulo span {
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+
+
 .container .content .col-wide {
   grid-column: 1 / -1;
 }
@@ -128,6 +145,17 @@ img {
 
 .container .content .img-2 {
   align-self: self-end;
+}
+
+.container .content p {
+  font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: -0.075rem;
+  color: var(--color-1);
+}
+
+.container .content .info p +p {
+  margin-top: 3rem;
 }
 
 .container .anuncios {
