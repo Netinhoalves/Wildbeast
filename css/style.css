@@ -1,0 +1,97 @@
+:root {
+  --color: #222;
+  --white: #FFF;
+  --bg-header: #8844EE;
+  --bg-header-: #B07DFB;
+  --bg-nav: #0000001a;
+  --bg-nav-hover: #00000080;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(16rem, 1fr) 3fr 30rem;
+  grid-template-areas: 
+  "header header header"
+  "sidenav content anuncios"
+  "footer footer footer"
+  ;
+}
+
+.container header {
+  grid-area: header;
+  background: linear-gradient(135deg, var(--bg-header), var(--bg-header-));
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.container header .logo {
+  max-width: 20rem;
+}
+
+.container header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container header nav ul li + li {
+  margin-left: 3rem;
+}
+
+.container header nav ul li a {
+  display: block;
+  padding: 1rem;
+  color: var(--white);
+  font-size: 1.8rem;
+  background: var(--bg-nav);
+  border-radius: .5rem;
+  transition: 0.1s;
+}
+
+.container header nav ul li a:hover {
+  background: var(--bg-nav-hover);
+}
+
+.container .sidenav {
+  grid-area: sidenav;
+}
+
+.container .content {
+  grid-area: content;
+}
+
+.container .anuncios {
+  grid-area: anuncios;
+}
+
+.container footer {
+  grid-area: footer;
+}
