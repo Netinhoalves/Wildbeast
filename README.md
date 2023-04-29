@@ -1,6 +1,6 @@
 # Willdbeast ([Click Here](https://netinhoalves.github.io/Wildbeast/))
 
-<!-- ![Design preview for the Fylo dark theme landing page challenge](./Assets/img/desktop-preview.jpg) -->
+![Design preview for the Fylo dark theme landing page challenge](./img/preview-desktop.png)
 
 ## BEM-VINDO!
 
