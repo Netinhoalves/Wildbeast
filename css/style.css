@@ -193,6 +193,28 @@ img {
   margin-top: 3rem;
 }
 
+.container .content .destaque {
+  font-size: 1.4rem;
+  color: #B07DFB;
+  max-width: 25rem;
+}
+
+.container .content .citacao, .atributos {
+  padding: 3rem;
+  border-radius: .5rem;
+  box-shadow: .5rem .5rem 1.5rem 0 var(--shadow);
+  background: linear-gradient(135deg, var(--bg-header), var(--bg-header-));
+}
+
+.container .content .citacao p {
+  font-size: 2.4rem;
+  font-style: italic;
+  text-align: center;
+  color: var(--white);
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
 .container .anuncios {
   grid-area: anuncios;
   display: grid;
