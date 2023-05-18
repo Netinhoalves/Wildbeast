@@ -1,4 +1,4 @@
-# Willdbeast ([Click Here](https://netinhoalves.github.io/Wildbeast/))
+# Willdbeast ([Clique Aqui](https://netinhoalves.github.io/Wildbeast/))
 
 ![Design preview for the Fylo dark theme landing page challenge](./img/preview-desktop.png)
 
@@ -10,7 +10,7 @@ Este é um desafio proposto pelo professor [André Rafael](https://www.youtube.c
 
 * HTML5
 * CSS3
-* FlexBox
+* CSS FlexBox
 * CSS Grid Layout
 * Media-queries
 * Layout Responsivo
