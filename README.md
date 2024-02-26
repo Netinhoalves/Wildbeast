@@ -1,4 +1,4 @@
-# Willdbeast ([Clique Aqui](https://netinhoalves.github.io/Wildbeast/))
+# Willdbeast ([Clique Aqui](https://netinhoalves.github.io/wildbeast/))
 
 ![Design preview for the Fylo dark theme landing page challenge](./img/preview-desktop.png)
 
@@ -17,4 +17,4 @@ Este é um desafio proposto pelo professor [André Rafael](https://www.youtube.c
 
 ## Acessar minha resolução
 
-   Eu hospedei este desafio com a ajuda do GitHub Pages, para acessar minha resolução deste desafio [Clique Aqui](https://netinhoalves.github.io/Wildbeast/)
+   Eu hospedei este desafio com a ajuda do GitHub Pages, para acessar minha resolução deste desafio [Clique Aqui](https://netinhoalves.github.io/wildbeast/)
